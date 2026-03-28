@@ -1,0 +1,23 @@
+{
+  "name": "mongo-for-android",
+  "version": "1.0.0",
+  "description": "how to use mongodb using nodejs in android",
+  "homepage": "https://github.com/DevKevo25/Mongodb-for-Android#readme",
+  "bugs": {
+    "url": "https://github.com/DevKevo25/Mongodb-for-Android/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevKevo25/Mongodb-for-Android.git"
+  },
+  "license": "ISC",
+  "author": "DevKevo25",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^7.1.1"
+  }
+}
