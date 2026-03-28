@@ -7,15 +7,18 @@ You can use any backend language here but I'll be using nodejs for this tutorial
 # steps to gwt started
 1️⃣ Download Dory Mongodb server from APKPure
 <a href="https://apkpure.com/dory-mongodb-server/io.tempage.dorymongo">Dory</a>
+
 This will be the local mongodb server
 
 2️⃣ Download MongoLime from APKPure 
 <a href="https://apkpure.com/mongolime/com.mongolime">MongoLime</a>
+
 you'll use this to view mongodb databases and collections in interactive environment 
 just like in mongodb compass
 
 3️⃣ Download termux from Fdroid 
 <a href="https://f-droid.org/en/packages/com.termux/">Termux</a>
+
 This will be used to run shell commands
 
 # 🍃 Setting up termux environment 🍃
@@ -57,3 +60,26 @@ npm start
 You should see 'database created successfully'
 
 # Setting Up mongolime
+open mongolime app
+
+click on ```new connection```
+
+Type host as ```localhost``` and port as ```27017```
+
+Click on save
+
+After that you'll get a to view your collections in mongolime.
+
+# Daily use
+The steps above are to get started after that everything becomes easy
+
+1. Open Dory and start server
+2. Use nodejs or any backend language to query the database
+3. use mongolime to view your database
+
+🚀 if in future you want to use mongoose you'll need to use the old version. install it like this
+```shell
+npm install mongoose@5
+```
+
+# Don't forget to leave a star ⭐ 
