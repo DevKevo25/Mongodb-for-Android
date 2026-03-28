@@ -59,6 +59,18 @@ npm start
 
 You should see 'database created successfully'
 
+# 📑  All in one commands 📑
+Run these after starting the Dory server
+```shell
+pkg update && pkg upgrade
+pkg install git
+pkg install nodejs-lts
+git clone https://github.com/DevKevo25/Mongodb-for-Android.git
+cd Mongodb-for-Android
+npm install
+npm start
+```
+
 # Setting Up mongolime
 open mongolime app
 
