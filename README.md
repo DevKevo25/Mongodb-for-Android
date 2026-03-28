@@ -20,3 +20,40 @@ This will be used to run shell commands
 
 # 🍃 Setting up termux environment 🍃
 open termux and run these commands 
+
+update packages
+```shell
+pkg update && pkg upgrade
+```
+
+install git
+```shell
+pkg install git
+```
+
+install nodejs stable version 
+```shell
+pkg install nodejs-lts
+```
+
+clone this repository 
+```shell
+git clone https://github.com/DevKevo25/Mongodb-for-Android.git
+cd Mongodb-for-Android
+```
+
+install dependencies
+```shell
+npm install
+```
+
+🚀 open Dory mongodb server and click on start button. Make sure at the bottom you can see ```connections on port 27017```  if you can't see that click on the red button  🛑 to stop the server, at the top click on 'repair' checkbox, start the server again, after 5-10 secs click on the red button again and click on 'default' checkbox and start the server by clicking on the red button. After that you should see ```connections on port 27017```
+
+Go back to termux at the same directory ```Mongodb-for-Android``` and run this
+```shell
+npm start
+```
+
+You should see 'database created successfully'
+
+# Setting Up mongolime
