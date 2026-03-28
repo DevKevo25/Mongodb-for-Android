@@ -4,7 +4,7 @@ Here is some simple steps you can use to get started using mongodb in your phone
 Mongodb is mot supported for Android so here we'll use the old mongodb version.
 You can use any backend language here but I'll be using nodejs for this tutorial.
 
-# steps to gwt started
+# steps to get started
 1️⃣ Download Dory Mongodb server from APKPure
 <a href="https://apkpure.com/dory-mongodb-server/io.tempage.dorymongo">Dory</a>
 
